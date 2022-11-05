@@ -1,1 +1,2 @@
-# teaching2022
+# Teaching 2022
+Imbalanced learning
