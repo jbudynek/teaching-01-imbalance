@@ -204,7 +204,7 @@ Use only FD001.
 Dataset presents Run-to-Failure simulated data from turbo fan jet engines. It consists of multiple multivariate time series. Each time series is from a different engine. Each engine starts with different degrees of initial wear and manufacturing variation which is unknown to the user.
 The engine is operating normally at the start of each time series, and develops a fault at some point during the series. In the dataset, the fault grows in magnitude until system failure.
 
-We want to predict whether the unit will fail within the next 15 cycles. 
+We want to predict whether the unit will fail within the next 5 cycles. 
 
 Suggestions:
 - Download the data.
@@ -214,7 +214,7 @@ Suggestions:
 
 Tips:
 - You will need custom stratification strategies.
-- Unit number is useless.
+- Unit number is useless  (except for stratification).
 - You can create features that exploit time.
 
 ## Conclusion and perspectives
