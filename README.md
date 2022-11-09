@@ -174,7 +174,7 @@ Suggestions:
 
 There are several public datasets that exhibit imbalance, now that we went all the way with synthetic data, we can use them too.
 
-A few of them are available in imbalanced-learn directly.
+A few of them are available in imbalanced-learn directly: see https://imbalanced-learn.org/stable/references/generated/imblearn.datasets.fetch_datasets.html
 
 Suggestions:
 - Choose a couple of datasets in `imbalanced-learn`.
