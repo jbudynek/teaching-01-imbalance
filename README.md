@@ -27,6 +27,8 @@ The fields of anomaly detection and rare events prediction are linked to imbalan
 
 ## Datasets - synthetic data
 
+See notebook `00_imbalanced_synthetic.ipynb`
+
 Let's create and plot several toy datasets that we will use for this course.
 Let's try 2D/10D/20D data, two classes, 1-2-5-10-20% imbalance, size 10000. 
 
@@ -168,6 +170,8 @@ Suggestions:
 
 ## Datasets - real data
 
+See notebook `01_imbalanced_public_dataset.ipynb`
+
 There are several public datasets that exhibit imbalance, now that we went all the way with synthetic data, we can use them too.
 
 A few of them are available in imbalanced-learn directly: see https://imbalanced-learn.org/stable/references/generated/imblearn.datasets.fetch_datasets.html
@@ -178,6 +182,8 @@ Suggestions:
 - Train models, look at metrics.
 
 ## SECOM dataset
+
+See notebook `02_imbalanced_secom.ipynb`
 
 https://archive.ics.uci.edu/ml/datasets/SECOM
 
@@ -192,6 +198,8 @@ Suggestions:
 - Train your model with cross-validation, look at metrics.
 
 ## NASA Turbofan dataset
+
+See notebook `03_imbalanced_turbofan.ipynb`
 
 https://www.kaggle.com/datasets/behrad3d/nasa-cmaps
 
@@ -223,7 +231,7 @@ You can:
 
 More about SMOTE:
 There are other approaches that can be used for regression questions, in particular one is SMOTER.
-At Fieldbox we also studied an algorithm for sequence-to-sequence questions, which is called SMOTEST.
+At Fieldbox we also studied an algorithm for sequence-to-sequence questions, which is called [SMOTEST](https://github.com/fieldboxai/predict-rare-events-smotest).
 SMOTE has been discussed in a recent paper on medical trials and seem to be counterproductive sometimes.
 
 Ideas of complementary work:
