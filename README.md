@@ -51,8 +51,7 @@ Suggestions:
 
 Then we can work on a baseline model, a simple classification algorithm such as Random Forests.
 
-sklearn doc:
-https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+sklearn doc: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
 
 Suggestions:
 - Write a Random Forest classifier for all datasets, it’s ok to keep the default hyperparameters for now.
@@ -76,10 +75,9 @@ Typically precision and accuracy are very high but do not reflect at all what we
 
 You get a high accuracy just by predicting the majority class, but you fail to capture the minority class, which is most often the point of the question.
 
-sklearn doc:  https://scikit-learn.org/stable/modules/model_evaluation.html
+sklearn doc: https://scikit-learn.org/stable/modules/model_evaluation.html
 
-Wikipedia:
-https://en.wikipedia.org/wiki/Confusion_matrix
+Wikipedia: https://en.wikipedia.org/wiki/Confusion_matrix
 
 ## Alternative metrics more suited to imbalance
 
@@ -105,8 +103,7 @@ Some classification models can behave a bit better than others with imbalanced d
 The “balanced” mode uses the values of y to automatically adjust weights inversely proportional to class frequencies in the input data as 
 `n_samples / (n_classes * np.bincount(y))`
 
-sklearn doc:
-https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+sklearn doc: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
 
 
 Suggestions:
@@ -123,8 +120,7 @@ For each iteration of RF, take a bootstrap of minority class, then take the same
 
 Reference: Chao Chen, Andy Liaw, Leo Breiman, and others. Using random forest to learn imbalanced data. University of California, Berkeley, 110(1-12):24, 2004.
 
-Imbalanced-learn ref:
-https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.BalancedRandomForestClassifier.html
+Imbalanced-learn ref: https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.BalancedRandomForestClassifier.html
 
 
 Suggestions:
@@ -219,9 +215,8 @@ Tips:
 
 ## Conclusion and perspectives
 
-
 Data imbalance is frequent and you can deal with it in several ways.
-You can :
+You can:
 - change your data, 
 - use appropriate models, 
 - use appropriate metrics.
@@ -234,6 +229,9 @@ SMOTE has been discussed in a recent paper on medical trials and seem to be coun
 Ideas of complementary work:
 - Find other datasets and work with them
 - Study SMOTER and implement it in Python
-- Study the paper that tempers SMOTE:
- van den Goorbergh, Ruben, et al. "The harm of class imbalance corrections for risk prediction models: illustration and simulation using logistic regression." Journal of the American Medical Informatics Association (2022). https://academic.oup.com/jamia/article/29/9/1525/6605096?login=false
+- Study [this paper](https://academic.oup.com/jamia/article/29/9/1525/6605096?login=false), that tempers SMOTE:
+ van den Goorbergh, Ruben, et al. "The harm of class imbalance corrections for risk prediction models: illustration and simulation using logistic regression." Journal of the American Medical Informatics Association (2022). 
+- Watch [this video](https://www.youtube.com/watch?v=6YnhoCfArQo) of Guillaume Lemaitre at [euroscipy2023](https://pretalx.com/euroscipy-2023/talk/GYYTCH/) about some advanced `scikit-learn` features, some of whivh deal with imbalance.  
 
+## Notes
+Used in 2022 and 2023 with AI engineering students in Bordeaux.
