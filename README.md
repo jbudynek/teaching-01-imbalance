@@ -300,7 +300,7 @@ van den Goorbergh, Ruben, et al. "The harm of class imbalance corrections for
 risk prediction models: illustration and simulation using logistic regression."
 Journal of the American Medical Informatics Association (2022).
 - Watch [this video](https://www.youtube.com/watch?v=6YnhoCfArQo) of Guillaume
-- Lemaitre at [euroscipy2023](https://pretalx.com/euroscipy-2023/talk/GYYTCH/)
+Lemaitre at [euroscipy2023](https://pretalx.com/euroscipy-2023/talk/GYYTCH/)
 about some advanced `scikit-learn` features, some of which deal with imbalance.
 
 ## Notes
