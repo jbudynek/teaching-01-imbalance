@@ -32,6 +32,17 @@ imbalanced data.
 - Medical: classification of patients with rare condition
 - Content moderation: detection of unsafe content
 
+## Example of output for this tutorial
+
+You may want to display your results in a table as such:
+
+|ID|Classifier&ensp;name|Modifier|Sampling|Dataset&ensp;size|%&ensp;imbalance|Training&ensp;precision|Training&ensp;accuracy|Training&ensp;recall|Training&ensp;f1|Training&ensp;balanced&ensp;accuracy|Training&ensp;size|Testing&ensp;precision|Testing&ensp;accuracy|Testing&ensp;recall|Testing&ensp;f1|Testing&ensp;balanced&ensp;accuracy|Testing&ensp;size|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|1|Random&ensp;Forest|N/A|N/A|1000|10|-|-|-|-|-|-|-|-|-|-|-|
+|2|Random&ensp;Forest|class_weight|N/A|1000|10|-|-|-|-|-|-|-|-|-|-|-|
+|3|Random&ensp;Forest|class_weight|Oversampling|1000|...|-|-|-|-|-|-|-|-|-|-|-|
+|4|...|...|...|...|...|-|-|-|-|-|-|-|-|-|-|-|
+
 ## Datasets - synthetic data
 
 If you need help: see notebook `00_imbalanced_synthetic.ipynb`
