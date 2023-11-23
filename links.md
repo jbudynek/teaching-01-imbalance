@@ -1,4 +1,4 @@
-# Misc links
+# Collection of links
 
 ## MLOPS
 
