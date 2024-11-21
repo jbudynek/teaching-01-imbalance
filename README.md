@@ -316,4 +316,4 @@ about some advanced `scikit-learn` features, some of which deal with imbalance.
 
 ## Notes
 
-Used in 2022 and 2023 with AI engineering students in Bordeaux.
+Used in 2022, 2023 and 2024 with AI engineering students in Bordeaux.
